@@ -1,7 +1,6 @@
 -- EXERCICE_NINJA
 -- To fetch the last 2 customers in alphabetical order (A-Z) excluding the id column, you can use the following SQL query: 
 
-
 SELECT first_name, last_name
 FROM customers
 ORDER BY last_name DESC
